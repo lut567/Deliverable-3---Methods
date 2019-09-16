@@ -36,12 +36,24 @@ namespace Deliverable_3___Methods
         // Second Method
         private static void Method_2(double temp, string first, string last)
         {
-            // Output of first and last name
-            Console.WriteLine("Hello " + first + " " + last + "!");
-            // convert temps F to C
-            double celsius = (temp - 32) * 5 / 9;
-            // Output user temp and converted temp
-            Console.WriteLine("The tempature " + temp + " degrees Fahrenheit in Celsius is: " + celsius);
+
+            try
+            {
+                // Output of first and last name
+                Console.WriteLine("Hello " + first + " " + last + "!");
+                // convert temps F to C
+                double celsius = (temp - 32) * 5 / 9;
+                // Output user temp and converted temp
+                Console.WriteLine("The tempature " + temp + " degrees Fahrenheit in Celsius is: " + celsius);
+
+            }
+            catch (Exception ex)
+            {
+                // error message
+                Console.WriteLine(ex.Message);
+            }
+
+
         }
     }
 }
