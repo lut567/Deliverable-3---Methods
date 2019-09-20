@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * 
+ * coder: Shane Luttmann
+ * 9/15/19
+ * Deliverable 3 - Methods
+ * 
+ */
+
+using System;
 
 namespace Deliverable_3___Methods
 {
